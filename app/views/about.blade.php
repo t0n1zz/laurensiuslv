@@ -19,7 +19,7 @@
                 <div id="meet-the-team" class="row">
                     <div class="center">
                         <p><img class="img-responsive img-thumbnail img-circle" src="{{ asset('images/me.jpg') }}" alt="" ></p>
-                        <h5>Laurensius Tony<small class="designation muted">Publication IT, Unity3D Game Developer & Windows Phone Developer</small></h5>
+                        <h1>Laurensius Tony<small class="designation muted">Graphic <b>Designer</b>, Game & Web <b>Developer</b></small></h1>
                         <a class="btn btn-social btn-facebook" href="https://www.facebook.com/tony.doangzz" target="_blank">
                             <i class="icon-facebook"></i></a>
                         <a class="btn btn-social btn-google-plus" href="https://plus.google.com/u/0/108100311371354375575" target="_blank">
@@ -32,8 +32,8 @@
                 </div>
             </div>
             <div class="col-sm-7">
-                <h2>Skills</h2>
-                <div>
+                <div class="col-sm-12">
+                    <h2>Skills</h2>
                     <div class="progress shadow">
                         <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
                             <span>HTML/CSS</span>
@@ -65,12 +65,33 @@
         <div class="col-md-12">
             <div class="center gap">
                 <hr/>
+                <h1>The Brief Introduction Of Myself</h1>
+                <hr/>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="media">
+                <p align="center" style="font-size: x-large">Founder of <b>LaurensiusGame</b> startup and becoming member of
+                    <b>Microsoft Bizspark Startup</b> since 2012, focusing on creating apps and games for <b>windows phone</b> platform.
+                    <br/>While my day job is as <i>promotion & publication staf</i> at
+                    <a href="https://www.puskopditbkcukalimantan.org" target="_blank"><b>PUSKOPDIT BKCU KALIMANTAN</b></a>
+                    since august 2014 and developing & maintaining company website.
+                <p>
+                </div>
+            </div><!--/.col-md-4-->
+        </div>
+        <div class="col-md-12">
+            <div class="center gap">
+                <hr/>
                 <h1>Education History</h1>
                 <hr/>
             </div>
         </div>
         <hr/>
         <div class="row">
+            <div class="col-sm-12">
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
@@ -101,9 +122,11 @@
                     </div>
                 </div>
             </div><!--/.col-md-4-->
+            </div>
         </div>
         <div class="gap"></div>
         <div class="row">
+            <div class="col-sm-12">
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
@@ -124,39 +147,83 @@
                     </div>
                 </div>
             </div><!--/.col-md-4-->
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="center gap">
+                <hr/>
+                <h1>Projects</h1>
+                <hr/>
+            </div>
         </div>
         <hr/>
         <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div id="meet-the-team" class="row">
+                    <div class="center">
+                        <a href="{{ route('jetassault') }}"><p><img class="img-responsive img-thumbnail shadow" src="{{ asset('images/jetassault.png') }}"
+                                                                    width = "200" alt="" align="center"></p>
+                        <h2>JetAssault<small class="designation muted">My first arcade shooter game for windows phone </small></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div id="meet-the-team" class="row">
+                    <div class="center">
+                        <a href="{{ route('jetassaultgatekeeper') }}"><p><img class="img-responsive img-thumbnail shadow" src="{{ asset('images/jetassaultgatekeeper.png') }}"
+                                                                              width = "200" alt="" align="center"></p>
+                            <h2>JetAssault:Gatekeeper<small class="designation muted">Sequel of JetAssault, build with <b>Unity3D</b></small></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div id="meet-the-team" class="row">
+                    <div class="center">
+                        <a href="{{ route('myworld') }}"><p><img class="img-responsive img-thumbnail shadow" src="{{ asset('images/myworld.png') }}"
+                                                                 width = "200" alt="" align="center"></p>
+                            <h2>MYWorld<small class="designation muted">My first windows phone apps for <b>discovering places</b> around </small></h2></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div id="meet-the-team" class="row">
+                    <div class="center">
+                        <a href="https://www.puskopditbkcukalimantan.org" target="_blank"><p><img class="img-responsive img-thumbnail shadow" src="{{ asset('images/website.png') }}"
+                                                                                                  width = "200" alt="" align="center"></p>
+                            <h2>Website<small class="designation muted"><b>PUSKOPDIT BKCU KALIMANTAN</b> website that build with <b>laravel and bootstrap framework</b></small></h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-12">
-                <div class="center">
-                    <h2>Achievement</h2>
+                <div class="center gap">
+                    <hr/>
+                    <h1>Achievement</h1>
+                    <hr/>
                 </div>
             </div>
             <hr/>
             <div class="row">
-                <div class="col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            {{ HTML::image('images/lumiaappsolympiad.jpg', 'LumiaAppsOlympiad',
-                                array('class' => 'img-responsive img-thumbnail shadow','width' => '100%')) }}
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading"><a href="http://nice.or.id/niceevents/2012/12/18/inilah-pemenang-lumia-apps-olympiad/"
-                                                         target="_blank"
-                                                         >3rd Place LumiaAppOlympiad <br/><small>18 December 2012</small></a></h3>
+                <div class="col-md-6 col-sm-6">
+                    <div id="meet-the-team" class="row">
+                        <div class="center">
+                            <p>{{ HTML::image('images/lumiaappsolympiad.jpg', 'LumiaAppsOlympiad',
+                                array('class' => 'img-responsive img-thumbnail shadow','width' => '70%')) }}
+                            <h3><a href="http://nice.or.id/niceevents/2012/12/18/inilah-pemenang-lumia-apps-olympiad/"
+                               target="_blank"
+                               >3rd Place LumiaAppOlympiad <br/><small>18 December 2012</small></a></h3></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                              {{ HTML::image('images/bizspark_startup.jpg', 'Bizspark',
-                                    array('class' => 'img-responsive img-thumbnail shadow','width' => '100%')) }}
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading"><a href="https://www.microsoft.com/bizspark/startup/profile.aspx?startup=281888"
-                                                              target="_blank"
-                                                              >Member Of BizSpark Startup <br/><small>11 December 2013</small></a></h3>
+                <div class="col-md-6 col-sm-6">
+                    <div id="meet-the-team" class="row">
+                        <div class="center">
+                            <p>{{ HTML::image('images/bizspark_startup.jpg', 'Bizspark',
+                                    array('class' => 'img-responsive img-thumbnail shadow','width' => '70%')) }}
+                            <h3><a href="https://www.microsoft.com/bizspark/startup/profile.aspx?startup=281888"
+                               target="_blank"
+                                    >Member Of BizSpark Startup <br/><small>11 December 2013</small></a><h3></p>
                         </div>
                     </div>
                 </div>
